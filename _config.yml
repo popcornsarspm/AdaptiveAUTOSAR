@@ -1,1 +1,5 @@
 theme: jekyll-theme-slate
+
+github:
+  zip_url: https://github.com/pages-themes/slate/zipball/master
+  another_url: another value
