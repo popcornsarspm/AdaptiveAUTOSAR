@@ -1,0 +1,29 @@
+# PACON-IDE
+
+## 1. Outline
+
+&nbsp;PACON IDE refers to integrated development environment that handles all tasks in a single program which is associated with the development of adaptive applications such as coding, debugging, distributing compilation.  
+&nbsp;One of the biggest advantages of PACON IDE is Docker Container, which enables to provide a faster and lighter development environment than usual virtual environment technologies.  
+&nbsp;Also, PACON IDE is based on VS Code which is familiar with software developers. For this reason, users can edit source code in real-time, and easy to test for builds through connecting to various software version management programs and external storage systems.
+&nbsp;And furthermore diffrent languages are available in PACON IDE besides C++.  
+  
+## 2. Key Features
+
+- Autocompleting ARA API & Open source API
+- Checking AUTOSAR coding rule in real-time
+- Debugging
+- Supporting various languages (C++, Python, Rust, etc.)
+- Connection to network analyzation program (Wireshark)
+- Testing for network of Adaptive Application based on virtual ECU  
+  
+## 3. Benefits
+
+- We provide environment identical to actual target ECU, which brings lower risks for testing.
+- Users are able to manage history through connecting to external registry, and to be easy to work with co-workers.
+- PACON IDE automacally creates multiple virtual ECU through CI/CD so that it can test for Adaptive Application.  
+  
+## 4. Creating virtual ECU
+
+- We offer POSIX OS and Target ECU customers use as Virtual ECU Docker Container.
+- After testing for the Adaptive Application through virtual ECU, it can be directly applied to actual target ECU.
+- Except for basically offering virtual ECU, the work for Target ECU that customers need is provided as a separate service.
